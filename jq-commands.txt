@@ -1,0 +1,24 @@
+jq [.] trello-board.json \
+    | jq 'map({customFields})' \
+    | jq '.[] | .customFields | .[] | select(.name == "Start" or .name == "End")' \
+    | jq '{id, name}' \
+    > customfields.json
+
+jq [.] trello-board.json \
+    | jq 'map({lists})' \
+    | jq '.[] | .lists | .[] | select(.name == "Done" or .name == "Cancelled")' \
+    | jq '{id, name}' \
+    > lists.json
+
+jq [.] trello-board.json \
+    | jq 'map({cards})' \
+    | jq '.[] | .cards | .[] | select(.closed == false) | select(.idList == "5eb9ab12585419763edf9d8e" or .idList == "5eb9ab071c1c7055876f7e72")' \
+    > completed-cards.json
+
+jq '.' completed-cards.json \
+    | jq '{ name: .name, shortUrl: .shortUrl, idList: .idList, start_time: .customFieldItems[] | select(.idCustomField == "5eb9ae746b236f5a9a666dab").value.date, end_time: .customFieldItems[] | select(.idCustomField == "5eb9ae7e5cc4214756e61ca9").value.date }' \
+    | sed 's/5eb9ab12585419763edf9d8e/Done/g' \
+    | sed 's/5eb9ab071c1c7055876f7e72/Cancelled/g' \
+    | jq -s '.' \
+    > data.json
+
