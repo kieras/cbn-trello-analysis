@@ -1,0 +1,13 @@
+{
+
+  "trello": {
+    "api_key": "",
+    "token": ""
+  },
+
+  "sheet": {
+    "spreadsheet_key": "",
+    "sa_file": ""
+  }
+
+}

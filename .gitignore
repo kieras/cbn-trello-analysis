@@ -18,3 +18,7 @@ ipython_config.py
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
 
+# service-accounts and keys.txt containing sensible information
+dynamic-net-302214-795f85598d4b.json
+cbn-trello-metrics-1404be70498f.json
+keys.json
