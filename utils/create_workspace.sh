@@ -14,7 +14,7 @@ GIT_PASSWORD=$2
 
 gcloud compute ssh --zone $ZONE $VM_NAME --command " \
     rm -rf cbn-trello-analysis/ && \
-    git clone -b metrics_sheet_trello https://${GIT_USER}:${GIT_PASSWORD}@github.com/kieras/cbn-trello-analysis.git && \
+    git clone -b main https://${GIT_USER}:${GIT_PASSWORD}@github.com/kieras/cbn-trello-analysis.git && \
     sh ./cbn-trello-analysis/utils/install_packages.sh &&\
     sudo cp -v ../cbn-metrics-keys/keys.json ./cbn-trello-analysis && \
     sudo cp -v ../cbn-metrics-keys/cbn-trello-metrics-sa.json ./cbn-trello-analysis \
