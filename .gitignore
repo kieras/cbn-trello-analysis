@@ -21,3 +21,13 @@ ipython_config.py
 # service-accounts and keys.txt containing sensible information
 cbn-trello-metrics-sa.json
 keys.json
+
+bin
+etc
+include
+lib
+lib64
+share
+pyvenv.cfg
+
+
