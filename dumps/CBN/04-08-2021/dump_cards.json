@@ -339,144 +339,6 @@
                 }
             },
             "checkItems": 19,
-            "checkItemsChecked": 4,
-            "checkItemsEarliestDue": null,
-            "comments": 1,
-            "description": true,
-            "due": null,
-            "dueComplete": false,
-            "fogbugz": "",
-            "location": false,
-            "start": null,
-            "subscribed": false,
-            "viewingMemberVoted": false,
-            "votes": 0
-        },
-        "cardRole": null,
-        "checkItemStates": null,
-        "closed": false,
-        "cover": {
-            "brightness": "light",
-            "color": null,
-            "idAttachment": null,
-            "idPlugin": null,
-            "idUploadedBackground": null,
-            "size": "normal"
-        },
-        "customFieldItems": [
-            {
-                "id": "60fefcb5d4d6077064e7391a",
-                "idCustomField": "604a4bb7bc034e27d8674479",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "date": "2021-07-18T15:00:00.000Z"
-                }
-            },
-            {
-                "id": "60fefcb33318ea6fee7c5ebb",
-                "idCustomField": "604a4b907dcd42740909f0dc",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "date": "2021-07-06T15:00:00.000Z"
-                }
-            },
-            {
-                "id": "60fefcbe55a07673e5c090aa",
-                "idCustomField": "604a480e6075e002f706df0e",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "idValue": "604a480e6075e002f706df0f",
-                "modelType": "card"
-            },
-            {
-                "id": "60fefef86d8d5522ee525e39",
-                "idCustomField": "604a47290b93a850179b9342",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "idValue": "604a47290b93a850179b9344",
-                "modelType": "card"
-            },
-            {
-                "id": "60fefcbc232e524e8cb59c86",
-                "idCustomField": "5ed5166e09bab420eb68df5b",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "text": "CTW"
-                }
-            },
-            {
-                "id": "60fefcc57894f242de82003f",
-                "idCustomField": "5ed5148f700bd471403dcedb",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "text": "P2"
-                }
-            },
-            {
-                "id": "60fefca05b0ce576c3b2277b",
-                "idCustomField": "5ebed63ccd23c216260865ea",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "text": "b/192934169"
-                }
-            },
-            {
-                "id": "60fefa0fdec98e095d9c01fd",
-                "idCustomField": "5eb9ae746b236f5a9a666dab",
-                "idModel": "60fefa0edec98e095d9c01ac",
-                "modelType": "card",
-                "value": {
-                    "date": "2021-06-29T20:09:52.000Z"
-                }
-            }
-        ],
-        "dateLastActivity": "2021-07-26T18:29:12.902Z",
-        "desc": "**WIP**\n\nCIS 1.2 Control 1.10 Ensure KMS encryption keys are rotated within a period of 90 days\n\nThe required bindings to identify the rotation period added to a KMS key are not extracted into UDM today\n\nEither extend UDM to include policy & bindings, or map to an existing field:\n\n```\n#      \"cryptoKey\": {\n#        \"rotationPeriod\": \"7776000s\",\n#        \"versionTemplate\": {\n#          \"protectionLevel\": \"SOFTWARE\",\n#          \"algorithm\": \"GOOGLE_SYMMETRIC_ENCRYPTION\"\n#        },\n#        \"nextRotationTime\": \"2021-10-02T22:00:00Z\",\n#        \"purpose\": \"ENCRYPT_DECRYPT\"\n#      },\n\n# metadata.event_type = \"RESOURCE_CREATION\"\n# metadata.vendor_name = \"Google Cloud Platform\"\n# metadata.product_event_type = \"CreateCryptoKey\"\n```\n\n**Documentation:**\n\n- <List of link to documentation about the logs, samples, fields, etc>\n- <Link to mapping document, if created to help in this parser>\n\n**References:**\n\n- [Dev guide](https://drive.google.com/file/d/1zMuQwO8hLGsgASxwIhrqW178_56niLE-/view)\n- [Style guide](https://drive.google.com/file/d/164CJ0Cp3LkMaytkqYEvCIZW_-icV20dz/view)\n- [UDM reference](https://drive.google.com/drive/folders/1pCVnT19CXEFPxhhIn3ycGEBpmxyRDHL7)\n- [UDM field list](https://drive.google.com/file/d/1uAtBtc6yvAkD57GqrXKF7z44wUKGIt7l/view)\n- [UDM Validations map](https://drive.google.com/file/d/1D0qdKeu7-pI_m_AU63Jty-peVPFa7P7h/view?usp=sharing)\n- [Entity relationships](https://drive.google.com/file/d/1Zx5cvEgGjiOlmZbJj5HQ6sj14tm9K9Rz/view)\n- [Core Identities](https://drive.google.com/file/d/1JUDU8NNEYQxLtwT0n2ff0K2KqZulqS_J/view)\n- [Complexity / Estimate sheet](https://docs.google.com/spreadsheets/d/12cnD1_FCkpJ9dIGZaS2PkfJYyKAB4X5T0xEAXdE8x34/edit)\n",
-        "descData": {
-            "emoji": {}
-        },
-        "due": null,
-        "dueComplete": false,
-        "dueReminder": null,
-        "id": "60fefa0edec98e095d9c01ac",
-        "idAttachmentCover": null,
-        "idBoard": "5e614b0d907a35341f6c914a",
-        "idChecklists": [
-            "60fefa0fdec98e095d9c01b7",
-            "60fefa0fdec98e095d9c01c3",
-            "60fefa0fdec98e095d9c01c9",
-            "60fefa0fdec98e095d9c01d3",
-            "60fefa0fdec98e095d9c01db"
-        ],
-        "idLabels": [],
-        "idList": "5e614b39da291c030a19e2aa",
-        "idMembers": [],
-        "idMembersVoted": [],
-        "idShort": 190,
-        "isTemplate": false,
-        "labels": [],
-        "manualCoverAttachment": false,
-        "name": "GCP_CLOUDAUDIT_b192934169_CreateCryptoKey",
-        "pos": 72943.5625,
-        "shortLink": "SGVdVMM7",
-        "shortUrl": "https://trello.com/c/SGVdVMM7",
-        "start": null,
-        "subscribed": false,
-        "url": "https://trello.com/c/SGVdVMM7/190-gcpcloudauditb192934169createcryptokey"
-    },
-    {
-        "badges": {
-            "attachments": 1,
-            "attachmentsByType": {
-                "trello": {
-                    "board": 0,
-                    "card": 0
-                }
-            },
-            "checkItems": 19,
             "checkItemsChecked": 5,
             "checkItemsEarliestDue": null,
             "comments": 0,
@@ -1260,9 +1122,18 @@
                 "value": {
                     "text": "b/193894101"
                 }
+            },
+            {
+                "id": "60f9b76b82dcdb86b1ed30fd",
+                "idCustomField": "5eb9ae746b236f5a9a666dab",
+                "idModel": "60f9b76b82dcdb86b1ed30c1",
+                "modelType": "card",
+                "value": {
+                    "date": "2021-08-04T18:07:16.000Z"
+                }
             }
         ],
-        "dateLastActivity": "2021-07-22T18:31:31.375Z",
+        "dateLastActivity": "2021-08-04T18:07:18.764Z",
         "desc": "**WIP**\n\nBACKLOG WORK IN PROGRESS\n\n\n<Add any comment that might be helpful>\n<If necessary, add Buganizer comments>\n<If necessary, add Tracker spreadsheet comments>\n\n**Documentation:**\n\n- <List of link to documentation about the logs, samples, fields, etc>\n- <Link to mapping document, if created to help in this parser>\n\n**References:**\n\n- [Dev guide](https://drive.google.com/file/d/1zMuQwO8hLGsgASxwIhrqW178_56niLE-/view)\n- [Style guide](https://drive.google.com/file/d/164CJ0Cp3LkMaytkqYEvCIZW_-icV20dz/view)\n- [UDM reference](https://drive.google.com/drive/folders/1pCVnT19CXEFPxhhIn3ycGEBpmxyRDHL7)\n- [UDM field list](https://drive.google.com/file/d/1uAtBtc6yvAkD57GqrXKF7z44wUKGIt7l/view)\n- [UDM Validations map](https://drive.google.com/file/d/1D0qdKeu7-pI_m_AU63Jty-peVPFa7P7h/view?usp=sharing)\n- [Entity relationships](https://drive.google.com/file/d/1Zx5cvEgGjiOlmZbJj5HQ6sj14tm9K9Rz/view)\n- [Core Identities](https://drive.google.com/file/d/1JUDU8NNEYQxLtwT0n2ff0K2KqZulqS_J/view)\n- [Complexity / Estimate sheet](https://docs.google.com/spreadsheets/d/12cnD1_FCkpJ9dIGZaS2PkfJYyKAB4X5T0xEAXdE8x34/edit)\n",
         "descData": null,
         "due": null,
@@ -1278,32 +1149,163 @@
             "60f9b76b82dcdb86b1ed30e2",
             "60f9b76b82dcdb86b1ed30ea"
         ],
-        "idLabels": [
-            "5e614b0daf988c41f225f065"
-        ],
-        "idList": "5e614b39da291c030a19e2aa",
+        "idLabels": [],
+        "idList": "5ebeda192773a17ce104f04f",
         "idMembers": [
             "58ab1aad393bda48475be72c"
         ],
         "idMembersVoted": [],
         "idShort": 187,
         "isTemplate": false,
-        "labels": [
-            {
-                "color": "purple",
-                "id": "5e614b0daf988c41f225f065",
-                "idBoard": "5e614b0d907a35341f6c914a",
-                "name": "Hold"
-            }
-        ],
+        "labels": [],
         "manualCoverAttachment": false,
         "name": "WORKSPACE_ACTIVITY",
-        "pos": 285183,
+        "pos": 36471.78125,
         "shortLink": "IIFpxgMF",
         "shortUrl": "https://trello.com/c/IIFpxgMF",
         "start": null,
         "subscribed": true,
         "url": "https://trello.com/c/IIFpxgMF/187-workspaceactivity"
+    },
+    {
+        "badges": {
+            "attachments": 1,
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "checkItems": 19,
+            "checkItemsChecked": 4,
+            "checkItemsEarliestDue": null,
+            "comments": 1,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "fogbugz": "",
+            "location": false,
+            "start": null,
+            "subscribed": false,
+            "viewingMemberVoted": false,
+            "votes": 0
+        },
+        "cardRole": null,
+        "checkItemStates": null,
+        "closed": false,
+        "cover": {
+            "brightness": "light",
+            "color": null,
+            "idAttachment": null,
+            "idPlugin": null,
+            "idUploadedBackground": null,
+            "size": "normal"
+        },
+        "customFieldItems": [
+            {
+                "id": "60fefcb5d4d6077064e7391a",
+                "idCustomField": "604a4bb7bc034e27d8674479",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "date": "2021-07-18T15:00:00.000Z"
+                }
+            },
+            {
+                "id": "60fefcb33318ea6fee7c5ebb",
+                "idCustomField": "604a4b907dcd42740909f0dc",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "date": "2021-07-06T15:00:00.000Z"
+                }
+            },
+            {
+                "id": "60fefcbe55a07673e5c090aa",
+                "idCustomField": "604a480e6075e002f706df0e",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "idValue": "604a480e6075e002f706df0f",
+                "modelType": "card"
+            },
+            {
+                "id": "60fefef86d8d5522ee525e39",
+                "idCustomField": "604a47290b93a850179b9342",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "idValue": "604a47290b93a850179b9344",
+                "modelType": "card"
+            },
+            {
+                "id": "60fefcbc232e524e8cb59c86",
+                "idCustomField": "5ed5166e09bab420eb68df5b",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "text": "CTW"
+                }
+            },
+            {
+                "id": "60fefcc57894f242de82003f",
+                "idCustomField": "5ed5148f700bd471403dcedb",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "text": "P2"
+                }
+            },
+            {
+                "id": "60fefca05b0ce576c3b2277b",
+                "idCustomField": "5ebed63ccd23c216260865ea",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "text": "b/192934169"
+                }
+            },
+            {
+                "id": "60fefa0fdec98e095d9c01fd",
+                "idCustomField": "5eb9ae746b236f5a9a666dab",
+                "idModel": "60fefa0edec98e095d9c01ac",
+                "modelType": "card",
+                "value": {
+                    "date": "2021-08-04T17:54:35.000Z"
+                }
+            }
+        ],
+        "dateLastActivity": "2021-08-04T17:54:36.051Z",
+        "desc": "**WIP**\n\nCIS 1.2 Control 1.10 Ensure KMS encryption keys are rotated within a period of 90 days\n\nThe required bindings to identify the rotation period added to a KMS key are not extracted into UDM today\n\nEither extend UDM to include policy & bindings, or map to an existing field:\n\n```\n#      \"cryptoKey\": {\n#        \"rotationPeriod\": \"7776000s\",\n#        \"versionTemplate\": {\n#          \"protectionLevel\": \"SOFTWARE\",\n#          \"algorithm\": \"GOOGLE_SYMMETRIC_ENCRYPTION\"\n#        },\n#        \"nextRotationTime\": \"2021-10-02T22:00:00Z\",\n#        \"purpose\": \"ENCRYPT_DECRYPT\"\n#      },\n\n# metadata.event_type = \"RESOURCE_CREATION\"\n# metadata.vendor_name = \"Google Cloud Platform\"\n# metadata.product_event_type = \"CreateCryptoKey\"\n```\n\n**Documentation:**\n\n- <List of link to documentation about the logs, samples, fields, etc>\n- <Link to mapping document, if created to help in this parser>\n\n**References:**\n\n- [Dev guide](https://drive.google.com/file/d/1zMuQwO8hLGsgASxwIhrqW178_56niLE-/view)\n- [Style guide](https://drive.google.com/file/d/164CJ0Cp3LkMaytkqYEvCIZW_-icV20dz/view)\n- [UDM reference](https://drive.google.com/drive/folders/1pCVnT19CXEFPxhhIn3ycGEBpmxyRDHL7)\n- [UDM field list](https://drive.google.com/file/d/1uAtBtc6yvAkD57GqrXKF7z44wUKGIt7l/view)\n- [UDM Validations map](https://drive.google.com/file/d/1D0qdKeu7-pI_m_AU63Jty-peVPFa7P7h/view?usp=sharing)\n- [Entity relationships](https://drive.google.com/file/d/1Zx5cvEgGjiOlmZbJj5HQ6sj14tm9K9Rz/view)\n- [Core Identities](https://drive.google.com/file/d/1JUDU8NNEYQxLtwT0n2ff0K2KqZulqS_J/view)\n- [Complexity / Estimate sheet](https://docs.google.com/spreadsheets/d/12cnD1_FCkpJ9dIGZaS2PkfJYyKAB4X5T0xEAXdE8x34/edit)\n",
+        "descData": {
+            "emoji": {}
+        },
+        "due": null,
+        "dueComplete": false,
+        "dueReminder": null,
+        "id": "60fefa0edec98e095d9c01ac",
+        "idAttachmentCover": null,
+        "idBoard": "5e614b0d907a35341f6c914a",
+        "idChecklists": [
+            "60fefa0fdec98e095d9c01b7",
+            "60fefa0fdec98e095d9c01c3",
+            "60fefa0fdec98e095d9c01c9",
+            "60fefa0fdec98e095d9c01d3",
+            "60fefa0fdec98e095d9c01db"
+        ],
+        "idLabels": [],
+        "idList": "5ebeda192773a17ce104f04f",
+        "idMembers": [
+            "5ab4e564d78d6719377620bf"
+        ],
+        "idMembersVoted": [],
+        "idShort": 190,
+        "isTemplate": false,
+        "labels": [],
+        "manualCoverAttachment": false,
+        "name": "GCP_CLOUDAUDIT_b192934169_CreateCryptoKey",
+        "pos": 72943.5625,
+        "shortLink": "SGVdVMM7",
+        "shortUrl": "https://trello.com/c/SGVdVMM7",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/SGVdVMM7/190-gcpcloudauditb192934169createcryptokey"
     },
     {
         "badges": {
@@ -1744,7 +1746,7 @@
                 }
             },
             "checkItems": 19,
-            "checkItemsChecked": 5,
+            "checkItemsChecked": 13,
             "checkItemsEarliestDue": null,
             "comments": 1,
             "description": true,
@@ -1788,11 +1790,34 @@
                 }
             },
             {
+                "id": "610ac02cc4878141dda5c762",
+                "idCustomField": "604a480e6075e002f706df0e",
+                "idModel": "60c75df8336499616b034390",
+                "idValue": "604a480e6075e002f706df0f",
+                "modelType": "card"
+            },
+            {
+                "id": "610ac02a4e97b655ad3aeb7d",
+                "idCustomField": "604a47290b93a850179b9342",
+                "idModel": "60c75df8336499616b034390",
+                "idValue": "604a47290b93a850179b9344",
+                "modelType": "card"
+            },
+            {
                 "id": "60e4ba5748bba6229af2ece5",
                 "idCustomField": "600888797a543738c50aa064",
                 "idModel": "60c75df8336499616b034390",
                 "idValue": "600888944361d813c9a28613",
                 "modelType": "card"
+            },
+            {
+                "id": "610ac0353937c16823fc583f",
+                "idCustomField": "5f2d44d7f9b0cb31ee04d5fd",
+                "idModel": "60c75df8336499616b034390",
+                "modelType": "card",
+                "value": {
+                    "checked": "true"
+                }
             },
             {
                 "id": "60c75e1e9d76b921657d968f",
@@ -1801,6 +1826,24 @@
                 "modelType": "card",
                 "value": {
                     "text": "AIS"
+                }
+            },
+            {
+                "id": "610ac026226ad01f0ec3905e",
+                "idCustomField": "5ed5148f700bd471403dcedb",
+                "idModel": "60c75df8336499616b034390",
+                "modelType": "card",
+                "value": {
+                    "text": "P2"
+                }
+            },
+            {
+                "id": "610ac01a02a1441f2795cddf",
+                "idCustomField": "5ebed647364e7e6e3a7b3f51",
+                "idModel": "60c75df8336499616b034390",
+                "modelType": "card",
+                "value": {
+                    "text": "cl/388713494"
                 }
             },
             {
@@ -1822,7 +1865,7 @@
                 }
             }
         ],
-        "dateLastActivity": "2021-07-28T21:45:12.994Z",
+        "dateLastActivity": "2021-08-04T16:29:59.631Z",
         "desc": "**WIP**\n\nBACKLOG WORK IN PROGRESS\n\n\nCISCO_ASA_FIREWALL currently supports a relatively small subset of the total number of events supplied by the Cisco ASA. https://source.corp.google.com/piper///depot/google3/googlex/security/malachite/cbn/configs/CISCO_ASA_FIREWALL/default/cisco_asa_firewall.conf All the message types: \nhttps://www.cisco.com/c/en/us/td/docs/security/asa/syslog/b_syslog/syslogs1.html\n\nhttps://www.cisco.com/c/en/us/td/docs/security/asa/syslog/b_syslog.pdf\n\nAIS has a specific request to map \"ASA-7-746012\". However I suspect there is a lot of low hanging fruit in this parser (specifically regarding VPN messasges). We should do a once over of all the types in this document and see if we can extend this parser to make it more complete.\n\n\n**Documentation:**\n\n- https://www.cisco.com/c/en/us/td/docs/security/asa/syslog/b_syslog/syslogs1.html\n\n\n**References:**\n\n- [Dev guide](https://drive.google.com/file/d/1zMuQwO8hLGsgASxwIhrqW178_56niLE-/view)\n- [Style guide](https://drive.google.com/file/d/164CJ0Cp3LkMaytkqYEvCIZW_-icV20dz/view)\n- [UDM reference](https://drive.google.com/drive/folders/1pCVnT19CXEFPxhhIn3ycGEBpmxyRDHL7)\n- [UDM field list](https://drive.google.com/file/d/1uAtBtc6yvAkD57GqrXKF7z44wUKGIt7l/view)\n- [UDM Validations map](https://drive.google.com/file/d/1D0qdKeu7-pI_m_AU63Jty-peVPFa7P7h/view?usp=sharing)\n- [Entity relationships](https://drive.google.com/file/d/1Zx5cvEgGjiOlmZbJj5HQ6sj14tm9K9Rz/view)\n- [Core Identities](https://drive.google.com/file/d/1JUDU8NNEYQxLtwT0n2ff0K2KqZulqS_J/view)\n- [Complexity / Estimate sheet](https://docs.google.com/spreadsheets/d/12cnD1_FCkpJ9dIGZaS2PkfJYyKAB4X5T0xEAXdE8x34/edit)\n",
         "descData": {
             "emoji": {}
