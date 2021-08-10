@@ -1,0 +1,280 @@
+[
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "9c0fdca40714ca5c1f07cf19dce17821e5929624a57ae4a1f8fcd938cceca945",
+        "id": "5eb9ae746b236f5a9a666dab",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Start",
+        "pos": 16384,
+        "type": "date"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "fc5e9fa90b20867f3c27c61e67e33b2e583653abd693703800c04456ec854114",
+        "id": "5eb9ae7e5cc4214756e61ca9",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "End",
+        "pos": 32768,
+        "type": "date"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "26a1a6c2ed0e05e9cc34a0b29a7d08643a5bd654047c65aafd090b6d143e6dac",
+        "id": "5ebed63ccd23c216260865ea",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Buganizer",
+        "pos": 65536,
+        "type": "text"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "a09c19390489e70f21fb38aa760a4fb34c706f87b706afa43aa878243de8d3fd",
+        "id": "5ebed647364e7e6e3a7b3f51",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "CL",
+        "pos": 81920,
+        "type": "text"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "ada1fb54ff28d2d022ebc44a851b38bfceea7711cc3807408930f550a879d2c9",
+        "id": "5ed5148f700bd471403dcedb",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Priority",
+        "pos": 98304,
+        "type": "text"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "148ec4fae54ffd9061874b41f77829dc6e27ca13b4f57666df9f7194b78177ec",
+        "id": "5ed5166e09bab420eb68df5b",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Customers",
+        "pos": 114688,
+        "type": "text"
+    },
+    {
+        "display": {
+            "cardFront": false
+        },
+        "fieldGroup": "f8cb854ceb5d310804687cc0d930491a13a69b22b3931db34b755861c79c7235",
+        "id": "5f2d44d7f9b0cb31ee04d5fd",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Default",
+        "pos": 131072,
+        "type": "checkbox"
+    },
+    {
+        "display": {
+            "cardFront": false
+        },
+        "fieldGroup": "0ebf348dcc9c0566afc42b383e77b475728cdca3710df444ad431a42e108e7ce",
+        "id": "5f2d4577fd6d3114f0594a73",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Customer specific",
+        "pos": 147456,
+        "type": "checkbox"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "cdab36e45673e26ad6124cb2543dda1b2fdd8e348d6e372862d903b66280c314",
+        "id": "5fa419daaaee278fb6cdb706",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "EndDev",
+        "pos": 180224,
+        "type": "date"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "91aa1f8e4220f31bc411eb9324df8e351b3f99b101bbb134dadb61b0c1d0d1af",
+        "id": "600888797a543738c50aa064",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Size/Complexity",
+        "options": [
+            {
+                "color": "none",
+                "id": "6008888c052efb3eea2cb311",
+                "idCustomField": "600888797a543738c50aa064",
+                "pos": 16384,
+                "value": {
+                    "text": "XS"
+                }
+            },
+            {
+                "color": "none",
+                "id": "6008888f37fcd70a4e793dc3",
+                "idCustomField": "600888797a543738c50aa064",
+                "pos": 32768,
+                "value": {
+                    "text": "S"
+                }
+            },
+            {
+                "color": "none",
+                "id": "600888921107f344c2972542",
+                "idCustomField": "600888797a543738c50aa064",
+                "pos": 49152,
+                "value": {
+                    "text": "M"
+                }
+            },
+            {
+                "color": "yellow",
+                "id": "600888937d780d4f11f084f5",
+                "idCustomField": "600888797a543738c50aa064",
+                "pos": 65536,
+                "value": {
+                    "text": "L"
+                }
+            },
+            {
+                "color": "orange",
+                "id": "600888944361d813c9a28613",
+                "idCustomField": "600888797a543738c50aa064",
+                "pos": 81920,
+                "value": {
+                    "text": "XL"
+                }
+            }
+        ],
+        "pos": 196608,
+        "type": "list"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "02f44b5a2504525c68df5039e32df0d6567d7790b181bf912c0e3ec55a8cd304",
+        "id": "604a47290b93a850179b9342",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "New parser",
+        "options": [
+            {
+                "color": "none",
+                "id": "604a47290b93a850179b9343",
+                "idCustomField": "604a47290b93a850179b9342",
+                "pos": 18432,
+                "value": {
+                    "text": "Yes"
+                }
+            },
+            {
+                "color": "none",
+                "id": "604a47290b93a850179b9344",
+                "idCustomField": "604a47290b93a850179b9342",
+                "pos": 34816,
+                "value": {
+                    "text": "No"
+                }
+            }
+        ],
+        "pos": 212992,
+        "type": "list"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "3b0bc29202a26083e05ed1282cb9d05a4d5bad86ad0c81eac0924b9787aae1f7",
+        "id": "604a480e6075e002f706df0e",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Impacted parsers",
+        "options": [
+            {
+                "color": "none",
+                "id": "604a480e6075e002f706df0f",
+                "idCustomField": "604a480e6075e002f706df0e",
+                "pos": 19456,
+                "value": {
+                    "text": "Default"
+                }
+            },
+            {
+                "color": "none",
+                "id": "604a480e6075e002f706df10",
+                "idCustomField": "604a480e6075e002f706df0e",
+                "pos": 35840,
+                "value": {
+                    "text": "Customer"
+                }
+            },
+            {
+                "color": "none",
+                "id": "604a480e6075e002f706df11",
+                "idCustomField": "604a480e6075e002f706df0e",
+                "pos": 52224,
+                "value": {
+                    "text": "Default and Customer"
+                }
+            }
+        ],
+        "pos": 229376,
+        "type": "list"
+    },
+    {
+        "display": {
+            "cardFront": false
+        },
+        "fieldGroup": "12eccffec0dbb5d5b901c715bc3ecef3cc29689f2ec1bd76e89af37a91793543",
+        "id": "604a4b907dcd42740909f0dc",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Date requested (by Google)",
+        "pos": 245760,
+        "type": "date"
+    },
+    {
+        "display": {
+            "cardFront": true
+        },
+        "fieldGroup": "ed47bf462dee0a3e6044b78f9a52df6b0d889396e1258bf738c34171292f5551",
+        "id": "604a4bb7bc034e27d8674479",
+        "idModel": "5e614b0d907a35341f6c914a",
+        "isSuggestedField": false,
+        "modelType": "board",
+        "name": "Commit Date (by Google)",
+        "pos": 262144,
+        "type": "date"
+    }
+]
