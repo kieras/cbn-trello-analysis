@@ -6,3 +6,4 @@ pip3 install oauth2client
 pip3 install matplotlib
 pip3 install python-dateutil
 pip3 install google-api-python-client
+pip3 install ipympl
