@@ -30,4 +30,4 @@ lib64
 share
 pyvenv.cfg
 
-
+/dumps/*
