@@ -20,7 +20,7 @@ Considering we already have a project with a billing account activated.
     1. Go to ‘APIs and Services’ and click on ‘Credentials’
     2. Click on ‘+ Create Credentials’ and select ‘Service Account’
 	  3. Choose an appropriate name and click on ‘Create’
-	  4. Select the role ‘Service Account User’ and click on ‘Continue’
+	  4. Select the role ‘Service Account User’ and click on ‘Create and Continue'’
 	  5. Click on ‘Done’
 	  6. Select the service account you just created and go to the ‘Keys’ tab.
     7. Click on ‘Add key’ and ‘Create new key’, select ‘JSON’ and click on ‘Create’.
@@ -53,9 +53,9 @@ Considering we already have a project with a billing account activated.
     ```
 3. Create a folder to store the keys nedded:
     ```
-    mkdir $home/cbn-metrics-keys
+    sudo mkdir $home/cbn-metrics-keys
     ```
-4. If you already have cloned from github the `cbn-trello-analysis` project on your personal computer, create the file requested (`jeys.json`) upload them and the service account json file( `cbn-trello-metrics-sa.json` previously created on the Credentials - Google section) on cloudshell to the folder `$home/cbn-metrics-keys` created. 
+4. If you already have cloned from github the `cbn-trello-analysis` project on your personal computer, create the file requested (`keys.json`) upload them and the service account json file( `cbn-trello-metrics-sa.json` previously created on the Credentials - Google section) on cloudshell to the folder `$home/cbn-metrics-keys` created. 
     *If you don't have cloned:*
     ```
      git clone https://$GIT_USER:$GIT_PASSWORD@github.com/kieras/cbn-trello-analysis
@@ -135,11 +135,11 @@ Considering we already have a project with a billing account activated.
 13. Enter on `utils` folder:
     If you have cloned before:
     ```
-    cd path-to-cbn-trello-analysis/cbn-trello-analysis/utils
+    cd {path-to-your-cbn-trello-analysis}/cbn-trello-analysis/utils
     ```
     If you just upload the utils folder:
     ```
-    cd path-to-utils/utils
+    cd {path-to-your-utils}/utils
     ```
     
 14. Execute the script to create the workspace. It will access the instance by SSH, clone the repository, install all dependencies and add an alias in your cloud shell .bashrc that will be used to shhing into the vm and run the jupyter startup script created on the previous steps.
